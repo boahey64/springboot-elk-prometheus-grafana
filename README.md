@@ -71,7 +71,7 @@ The goal of this project is to implement a [`Spring Boot`](https://docs.spring.i
     ```
     docker run --rm --name movies-api -p 8080:8080 -e MYSQL_HOST=mysql \
       --network=springboot-elk-prometheus-grafana_default \
-      ivanfranchin/movies-api:1.0.0
+      boahey64/movies-api:1.0.0
     ```
     > **Note:** If you want to change to "non-json-logs", add `-e SPRING_PROFILES_ACTIVE=non-json-logs` to the command above
 
