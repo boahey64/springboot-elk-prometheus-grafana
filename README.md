@@ -36,7 +36,7 @@ The goal of this project is to implement a [`Spring Boot`](https://docs.spring.i
 
 - Run the following command
   ```
-  ./mvnw clean spring-boot:run --projects movies-api
+  mvn clean spring-boot:run --projects movies-api
   ```
   > **Note:** If you want to change to "non-json-logs" (maybe during development it's useful), run
   > ```
